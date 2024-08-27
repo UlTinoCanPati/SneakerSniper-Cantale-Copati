@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: grey;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*/ alinea horizontalmente */
+    align-items: center; /*/ alinea verticalmente */
+}
+
+.formulario{
+    background : white;
+    position: absolute;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.formulario form{
+    padding: 20px;
+}
+
