@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background : rgb(255, 255, 255);
+
+}
+
+.formulario{
+    background : rgb(245, 245, 245);
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    border: 1px solid;
+    border-color: rgb(230, 230, 230);
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.formulario form{
+    padding: 20px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18%;
+}
+input{
+    display: block;
+}
+
