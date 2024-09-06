@@ -1,38 +1,87 @@
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    background: rgb(255, 255, 255);
 }
 
-.fondo {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center; /*/ alinea horizontalmente */
-    align-items: center; /*/ alinea verticalmente */
+body{
+    background : rgb(255, 255, 255);
 }
 
 .formulario{
-    background : rgb(255, 247, 247);
-    position: absolute;
-    width: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+
     border-radius: 10px;
     border: 1px solid;
+    border-color: rgb(230, 230, 230);
+    
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px 80px;
 }
 
-.logo{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
+    border: 1px solid;
+    border-color: rgb(230, 230, 230);
 }
 
 .formulario h1{
     text-align: center;
 }
 
-.formulario form{
-    padding: 20px;
+.barra{
+    box-sizing: border-box;
+
+    border: solid 1px rgb(206, 206, 206);
+    height: 50px;
+    padding: 12px;
+    /* margin: 7px auto;
+    width: 70%; */
+    margin: 7px 0;
+    width: 100%;
+    
 }
+
+.barra::placeholder{
+    font-size: 15px;
+}
+
+.registrate{
+    /* width: 70%; */
+    width: 100%;
+    height: 50px;
+    /* margin: 0px auto; */
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.services{
+    color:grey;  
+    font-size: small;
+    /* margin: 0px auto;
+    width: 70%; */
+}
+
+/* .yatiene{
+    margin: 0px auto;
+    width: 70%;
+} */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+input{
+    display: block;
+}
+
 
